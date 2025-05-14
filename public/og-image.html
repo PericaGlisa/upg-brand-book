@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>UPG Engineering Brand Book</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: #222222;
+      color: white;
+      width: 1200px;
+      height: 630px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .grid-bg {
+      position: absolute;
+      inset: 0;
+      background-size: 50px 50px;
+      background-image: linear-gradient(to right, rgba(243, 243, 243, 0.1) 1px, transparent 1px),
+                        linear-gradient(to bottom, rgba(243, 243, 243, 0.1) 1px, transparent 1px);
+      z-index: 1;
+    }
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(34, 34, 34, 0.9), rgba(34, 34, 34, 0.7));
+      z-index: 2;
+    }
+    .content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      padding: 40px;
+    }
+    .logo {
+      width: 200px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      font-size: 64px;
+      margin: 0 0 20px 0;
+    }
+    p {
+      font-size: 32px;
+      color: #7BD5F5;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="overlay"></div>
+  <div class="content">
+    <img class="logo" src="/lovable-uploads/449540a8-92c1-4182-bc6e-8b0ea07cf847.png" alt="UPG Engineering Logo">
+    <h1>UPG Engineering Brand Book</h1>
+    <p>Simple, innovative solutions for all your engineering inspirations.</p>
+  </div>
+</body>
+</html>
