@@ -15,7 +15,7 @@ const TypographySection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Primary Font: Aktiv Grotesk</h3>
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Primary Font: Aileron</h3>
             <div className="space-y-6 sm:space-y-8">
               <div className="border-b pb-4 sm:pb-6">
                 <p className="text-brand-mediumgray mb-2 text-sm">Bold (700)</p>
@@ -85,8 +85,8 @@ const TypographySection = () => {
           <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">Typography Guidelines</h3>
           <ul className="list-disc pl-4 sm:pl-5 space-y-2 text-sm sm:text-base text-gray-700">
             <li>
-              <strong>Font Family:</strong> Use Aktiv Grotesk as the primary typeface across all 
-              communications. For web and digital applications where Aktiv Grotesk is unavailable, 
+              <strong>Font Family:</strong> Use Aileron as the primary typeface across all 
+              communications. For web and digital applications where Aileron is unavailable, 
               use system sans-serif fonts as fallbacks.
             </li>
             <li>
